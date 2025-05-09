@@ -23,7 +23,6 @@
 		"@tailwindcss/typography": "^0.5.15",
 		"@tailwindcss/vite": "^4.0.0",
 		"@types/node": "^18",
-		"drizzle-kit": "^0.30.2",
 		"svelte": "^5.0.0",
 		"svelte-check": "^4.0.0",
 		"tailwindcss": "^4.0.0",
@@ -36,7 +35,6 @@
 		"@oslojs/crypto": "^1.0.1",
 		"@oslojs/encoding": "^1.1.0",
 		"bits-ui": "^1.4.6",
-		"drizzle-orm": "^0.40.0",
 		"lucide-svelte": "^0.508.0",
 		"phosphor-svelte": "^3.0.1",
 		"postgres": "^3.4.5"
