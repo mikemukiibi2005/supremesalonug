@@ -12,7 +12,7 @@ The site is built on [Tailwindcss v4](https://v4.tailwindcss.com) and HTML.
     mkdir /var/www/html/supremesalonug
 
     ## Download the build
-    wget https://github.com/mikemukiibi2005/supremesalonug/blob/main/site.tar.gz .
+    wget https://raw.githubusercontent.com/mikemukiibi2005/supremesalonug/blob/main/site.tar.gz
 
     ## Extract build
     tar -xzf ./site.tar.gz -C /var/www/html/supremesalonug
