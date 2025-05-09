@@ -1,21 +1,23 @@
 <script lang="ts">
-    import { FacebookLogo, InstagramLogo, XLogo } from "phosphor-svelte";
+    import { InstagramLogo, XLogo, YoutubeLogo, TiktokLogo } from "phosphor-svelte";
 
     const currentYear = 2025;
     const socialLinks = [
-        { href: '#', label: 'SupremeSalonUG', icon: FacebookLogo },
-        { href: '#', label: 'supremesalonug', icon: InstagramLogo },
-        { href: '#', label: 'supremesalonug', icon: XLogo },
+        { href: 'ttps://www.instagram.com/supremesalonug', label: '@supremesalonug', icon: InstagramLogo },
+        { href: 'https://x.com/SupremeSalonUG', label: '@SupremeSalonUG', icon: XLogo },
+        { href: 'https://www.youtube.com/@SupremeSalonug', label: '@SupremeSalonug', icon: YoutubeLogo },
+        { href: 'https://www.tiktok.com/@supremesalonug', label: '@supremesalonug', icon: TiktokLogo }
     ]
 </script>
 
-<footer class="text-gray-800 py-8 px-4 text-center">
+<footer id="contacts" class="text-gray-800 py-8 px-4 text-center">
+    <h2 class="text-3xl font-bold text-amber-800 mb-8">Contact Us</h2>
     <div class="container mx-auto">
-        <div class="flex justify-center space-x-6 mb-4">
+        <div class="flex flex-col space-y-2 md:flex-row space-x-6 mb-4">
             {#each socialLinks as social}
-                <a href="{social.href}" target="_blank" rel="noopener noreferrer" aria-label={social.label} class="transition duration-300 flex justify-center">
-                    <svelte:component this={social.icon} size={24} />
-                    <p>{social.label}</p>
+                <a href="{social.href}" target="_blank" rel="noopener noreferrer" aria-label={social.label} class="transition duration-300 flex justify-left">
+                    <svelte:component this={social.icon} size={24} class="mr-2" />
+                    <p class="hover:text-amber-600">{social.label}</p>
                 </a>
             {/each}
         </div>

@@ -9,6 +9,7 @@
         { href: '#about', label: 'About Us' },
         { href: '#services', label: 'Services' },
         { href: '#location', label: 'Location' },
+        { href: '#contacts', label: 'Contact Us'}
     ];
 
     function toggleMobileMenu() {
@@ -21,10 +22,10 @@
 </script>
 
 <nav class="w-full mx-auto flex justify-around m-[24px]">
-    <a href="/" class="md:text-xl text-amber-800">Supreme Salon</a>
+    <a href="/" class="md:text-xl text-amber-600">Supreme Salon</a>
     <ul class="flex justify-around space-x-3.5">
         {#each navLinks as navLink}
-            <li class="md:text-xl text-amber-800"><a href={navLink.href}>{navLink.label}</a></li>
+            <li class="md:text-xl text-amber-600"><a href={navLink.href}>{navLink.label}</a></li>
         {/each}
     </ul>
 </nav>
