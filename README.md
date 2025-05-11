@@ -1,6 +1,6 @@
 # Stack
 
-The site is built on [Tailwindcss v4](https://v4.tailwindcss.com) and HTML.
+The site is built on [Tailwindcss v4](https://tailwindcss.com) and HTML.
 
 ## Deployment
 
